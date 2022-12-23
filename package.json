@@ -1,7 +1,7 @@
 {
   "name": "pdfkit-invoice",
   "version": "1.0.0",
-  "description": "",
+  "description": "<center>   <a href=\"https://pspdfkit.com/web\">     <img src=\"./screenshot.png\" alt=\"Screenshot of an invoice PDF in the PSPDFKit for Web reader.\" width=\"1009\">   </a> </center>",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,6 +11,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "pdfkit": "^0.13.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreevani916/pdfkit-invoice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sreevani916/pdfkit-invoice/issues"
+  },
+  "homepage": "https://github.com/sreevani916/pdfkit-invoice#readme"
 }
